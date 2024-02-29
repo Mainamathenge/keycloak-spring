@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.security.Principal;
 
 @RestController
-@RequestMapping("/api/v1/demo")
+@RequestMapping("/api/v1/auth")
 @AllArgsConstructor
 public class KeycloakUserApi {
     private final KeycloakUserService keycloakUserService;

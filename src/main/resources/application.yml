@@ -16,7 +16,7 @@ jwt:
 
 keycloak:
   realm: Joseph
-  domain: localhost:8080
+  domain: localhost:8181
   adminClientId: admin_cli
   adminClientSecret: qopVlLFaBMZSz9OVUGqlf2fmaMEMmyyi
   client: authenticationClientId

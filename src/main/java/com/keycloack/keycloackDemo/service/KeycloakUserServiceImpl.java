@@ -23,7 +23,8 @@ public class KeycloakUserServiceImpl implements KeycloakUserService {
     private String realm;
     private Keycloak keycloak;
 
-    public KeycloakUserServiceImpl(KeycloakConfig keycloakConfig){
+    public KeycloakUserServiceImpl(Keycloak keycloak){
+        this.keycloak = keycloak;
     }
 
     @Override
